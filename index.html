@@ -6,6 +6,7 @@ var x = 20;
 function change (){
 setInterval(change,20);
 x = 100;
+ctx.clearRect(0,0,700,500);
 x++;
 ctx.fillRect(x,250,50,50);
 }
